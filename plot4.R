@@ -19,7 +19,7 @@ with(subsetDF, {
   plot(Datetime, Sub_metering_1, type='l', ylab='Energy sub metering', xlab='')
   lines(Datetime, Sub_metering_2, type='l', xlab='', col='red')
   lines(Datetime, Sub_metering_3, type='l', xlab='', col='blue')
-  legend('topright', lwd=1, lty=1, cex=0.6, col=c('black', 'red', 'blue'), legend=c('Sub_metering_1', 'Sub_metering_2', 'Sub_metering_3'))
+  legend('topright', lwd=1, lty=1, cex=0.6, col=c('black', 'red', 'blue'), bty='n', legend=c('Sub_metering_1', 'Sub_metering_2', 'Sub_metering_3'))
   plot(Datetime, Global_reactive_power, type='l', xlab='datetime')
 })
 
